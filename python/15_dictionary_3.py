@@ -30,7 +30,8 @@ print(detail['gender'])
 print(detail['dob'])
 
 # add key value pair pincode into dictionary 
-detail.update({"pincode":364310})
+detail['pincode']=364310
+#detail.update({"pincode":364310})
 print(detail)
 
 #add key value pair to store your 5 favourite touriest destination 
