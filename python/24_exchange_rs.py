@@ -12,44 +12,42 @@ output :
 2 x 1 =   02
 1 x 1 =   01
 '''
-amount = int(input("Enter the amount: "))
+ammount=int(input("enter total ammount ... "))
 
-r2000=amount // 2000
-amount % 2000
+rs500=ammount // 500
+ammount %= 500
 
-r500=amount // 500
-amount %= 500
+rs200=ammount//200
+ammount %= 200
 
-r200=amount // 200
-amount %= 200
+rs100=ammount//100
+ammount %= 100
 
-r100=amount // 100
-amount %= 100
+rs50=ammount//50
+ammount %= 50
 
-r50=amount // 50
-amount %= 50
+rs20=ammount//20
+ammount %= 20
 
-r20=amount // 20
-amount %= 20
+rs10=ammount//10
+ammount %= 10
 
-r10=amount // 10
-amount %= 10
+rs5=ammount//5
+ammount %= 5
 
-r5=amount // 5
-amount %= 5
+rs2=ammount//2
+ammount %= 2
 
-r2=amount // 2
-amount %= 2
+rs1=ammount
 
-r1=amount
+print("rupees 500 notes is ",rs500)
+print("rupees 200 notes is ",rs200)
+print("rupees 100 notes is ",rs100)
+print("rupees 50 notes is ",rs50)
+print("rupees 20 notes is ",rs20)
+print("rupees 10 notes is ",rs10)
+print("rupees 5 notes is ",rs5)
+print("rupees 2 notes is ",rs2)
+print("rupees 1 notes is ",rs1)
 
-print("2000 :", r2000)
-print("500  :", r500)
-print("200  :", r200)
-print("100  :", r100)
-print("50   :", r50)
-print("20   :", r20)
-print("10   :", r10)
-print("5    :", r5)
-print("2    :", r2)
-print("1    :", r1)
+
