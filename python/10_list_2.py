@@ -10,7 +10,7 @@ print(destination[2])
 print(destination[2:])
 
 ###################### create a list & store 10 different type of values in it ######################
-values=[101,"meniya rohit","bca",5,3,2006,"vallbhipur","bhavnagar","gujrat","india"]
+values= [101,"meniya rohit","bca",5,3,2006,"vallbhipur","bhavnagar","gujrat","india"]
 #print all values 
 print(values)
 
