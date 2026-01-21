@@ -1,16 +1,16 @@
 '''
 programme for ractangle
 '''
-lenght =0
+lenth=0
 width =0
 
-length=input("enter value for lenght...")
+lenth=input("enter value for lenth...")
 width=input("enter value for width...")
 
-length=int(length)
+lenth=int(lenth)
 width =int(width)
 
-radious=length*width
+radious=lenth*width
 
 print("total redious is : ",radious)
 
