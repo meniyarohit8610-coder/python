@@ -1,1 +1,3 @@
 rohit maniya
+git config --global user.email "meniyarohit8610@gmail.com"
+git config --global user.name meniyarohit8610-coder
