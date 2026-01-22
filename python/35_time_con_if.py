@@ -10,7 +10,7 @@
         output  invalid input 
 '''
 
-hour=int(input("enter houres in form of 24(hour)..."))
+hour=int(input("enter hours in form of 24(hour)..."))
 
 import sys
 

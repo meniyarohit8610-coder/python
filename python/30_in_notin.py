@@ -10,11 +10,11 @@ print(isNotFound)
 
 vegetables = ("potato", "onion", "tomato", "brinjal", "okra", "cabbage", "cauliflower", "spinach", "bottle gourd", "ridge gourd")
 
-favorite_vegis = input("what is your favorite vegetable name...")
-isFound = favorite_vegis in vegetables
+favorite_vegetable = input("what is your favorite vegetable name...")
+isFound = favorite_vegetable in vegetables
 print(isFound)
 
-isNotFound = favorite_vegis not in vegetables
+isNotFound = favorite_vegetable not in vegetables
 print(isNotFound)
 
 india = {"name": "india", "capital": "new delhi", "currency": "indian rupee", "continent": "asia", "population": "large", "government": "democracy", "national_animal": "tiger", "national_bird": "peacock", "national_flower": "lotus", "timezone": "ist"}
