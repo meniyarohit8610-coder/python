@@ -8,3 +8,4 @@ while a<100:
     c=a+b
     a=b
     b=c
+
